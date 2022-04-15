@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         return const CountHomeWidget();
         break;
       case 1:
-        return const MovieListWidget();
+        return MovieListWidget();
         break;
     }
     return Container();

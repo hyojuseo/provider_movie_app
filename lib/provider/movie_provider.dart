@@ -10,9 +10,9 @@ class MovieProvider extends ChangeNotifier{
 
   loadMovies() async {
     //repository에 접근해서 불러오기
-    List<Movie>? listMovies = await _movieRepository.loadMovies();
+    List<Movie> listMovies = await _movieRepository.loadMovies();
     //listMovies에서 예외처리해주고 추가적인 가공처리를 해줘야함.
-    _movies = listMovies!;
+    _movies = listMovies;
     notifyListeners();
   }
 }
