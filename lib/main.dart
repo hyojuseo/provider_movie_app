@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider_simple_movie/home.dart';
 import 'package:provider/provider.dart';
 import 'package:provider_simple_movie/provider/bottom_navigation_provider.dart';
+import 'package:provider_simple_movie/provider/movie_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,9 @@ class MyApp extends StatelessWidget {
       home: MultiProvider(
         providers: [
           ChangeNotifierProvider(
-              create: (BuildContext context) => BottomnavigationProvider())
+              create: (BuildContext context) => BottomnavigationProvider()),
+          ChangeNotifierProvider(
+              create: (BuildContext context) => MovieProvider()),
         ],
         child: Home(),
       ),
