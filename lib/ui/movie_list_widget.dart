@@ -10,7 +10,7 @@ class MovieListWidget extends StatelessWidget {
   Widget _makeMovieOne(Movie movie){
     return Row(
       children: [
-        
+
       ],
     );
   }
@@ -19,7 +19,7 @@ class MovieListWidget extends StatelessWidget {
     return ListView.separated(
         itemBuilder: (BuildContext context, int index) {
           return _makeMovieOne(movies[index]);
-            //Center(child: Text(movies[index].title.toString()),
+            //Center(child: Text(movies[index].title.toString()));
         },
         separatorBuilder: (BuildContext context, int index) {
           return const Divider();
