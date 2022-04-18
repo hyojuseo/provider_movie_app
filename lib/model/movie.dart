@@ -14,4 +14,6 @@ class Movie{
       title: json['title'] == null ? '' : json['title'] as String,
     );
   }
+
+  String get postUri => 'https://image.tmdb.org/t/p/w500/${this.poster_path}';
 }
