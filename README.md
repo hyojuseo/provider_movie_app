@@ -1,16 +1,7 @@
 # provider_simple_movie
+> provider로 TMDB의 API를 이용해 인기영화들을 <br>
+> 목록화한 프로젝트이다. <br>
 
-A new Flutter project.
+<br>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![simple_movie_app](https://user-images.githubusercontent.com/90611410/163775111-e1b0c14d-4c09-42e2-8c25-fa3d1b0ca65a.PNG)
